@@ -6,6 +6,25 @@
     box-sizing: border-box;
 }
 
+/*** DEBUG ***/
+
+.debug header {
+    height: 90px;
+}
+
+.debug aside {
+    width: 55px;
+    height: calc(100% - 90px);
+}
+
+.debug main {
+    height: calc(100% - 180px);
+}
+
+.debug footer {
+    height: 90px;
+}
+
 /*** COMMON ***/
 
 body {
@@ -24,4 +43,12 @@ body {
 
 .bg-3 {
     background-color: #282828;
+}
+
+/*** ASIDE ***/
+
+aside {
+    background-color: #000;
+    position: fixed;
+    left: 0;
 }
