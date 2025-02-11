@@ -72,9 +72,23 @@ aside {
     max-width: 55px;
 }
 
+aside .icon img {
+    filter: invert(34%) sepia(23%) saturate(0%) hue-rotate(295deg)
+        brightness(96%) contrast(90%);
+}
+
+aside .profile-icon img {
+    background-color: #666666;
+    border-radius: 50%;
+}
+
+aside nav .playlist {
+    margin-top: 40px;
+}
+
 aside a,
 aside nav .playlist .title-playlist {
-    padding: 5px 20px;
+    padding: 5px 10px;
 }
 
 aside .logo .logo-big,
@@ -122,6 +136,11 @@ aside hr {
 @media screen and (min-width: 992px) {
     aside {
         max-width: 450px;
+    }
+
+    aside a,
+    aside nav .playlist .title-playlist {
+        padding: 5px 20px;
     }
 
     aside .logo .logo-big {
