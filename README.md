@@ -1,6 +1,6 @@
 # Spotify Web
 
-Creazione Web App Spotify il contenuto della pagina non esce dal viewport. Il layou deve essere responsive per mobile, tablet e desktop.
+Creazione Web App Spotify il contenuto della pagina non esce dal viewport. Il layout deve essere responsive per mobile, tablet e desktop.
 
 Il progetto sarà diviso 3 giorni in modo da suddividere il lavoro. Ogni giorno avrà la sua cartella.
 
