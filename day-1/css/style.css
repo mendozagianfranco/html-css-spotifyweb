@@ -78,7 +78,9 @@ aside a {
 }
 
 aside .logo .logo-big,
-aside nav .playlist {
+aside nav .playlist,
+aside .text,
+aside hr {
     display: none;
 }
 
