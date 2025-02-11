@@ -13,7 +13,6 @@
 }
 
 .debug aside {
-    width: 55px;
     height: calc(100% - 90px);
 }
 
@@ -33,6 +32,22 @@ body {
     height: 100vh;
 }
 
+img {
+    width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*** UTILITIES ***/
 .bg-1 {
     background-color: #10151b;
 }
@@ -48,7 +63,40 @@ body {
 /*** ASIDE ***/
 
 aside {
+    color: #5c5c5c;
     background-color: #000;
     position: fixed;
     left: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    max-width: 55px;
+}
+
+aside a {
+    padding: 5px 10px;
+}
+
+aside .logo .logo-big,
+aside nav .playlist {
+    display: none;
+}
+
+aside nav {
+    margin-top: 10px;
+}
+
+aside nav .menu {
+    display: flex;
+    flex-direction: column;
+}
+
+aside nav .menu .home-icon {
+    border-left: 2px solid #b1f840;
+}
+
+aside .bottom-aside {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
 }
