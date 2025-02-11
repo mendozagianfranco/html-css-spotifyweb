@@ -11,4 +11,17 @@
 body {
     font-family: 'Montserrat', serif;
     font-optical-sizing: auto;
+    height: 100vh;
+}
+
+.bg-1 {
+    background-color: #10151b;
+}
+
+.bg-2 {
+    background-color: #151922;
+}
+
+.bg-3 {
+    background-color: #282828;
 }
