@@ -34,7 +34,6 @@ body {
 
 img {
     width: 100%;
-    display: block;
 }
 
 a {
@@ -73,8 +72,9 @@ aside {
     max-width: 55px;
 }
 
-aside a {
-    padding: 5px 10px;
+aside a,
+aside nav .playlist .title-playlist {
+    padding: 5px 20px;
 }
 
 aside .logo .logo-big,
@@ -82,6 +82,10 @@ aside nav .playlist,
 aside .text,
 aside hr {
     display: none;
+}
+
+aside nav .playlist .title-playlist {
+    color: #fff;
 }
 
 aside nav {
@@ -101,4 +105,67 @@ aside .bottom-aside {
     margin-top: auto;
     display: flex;
     flex-direction: column;
+}
+
+aside .bottom-aside .profile-icon .text {
+    color: #fff;
+}
+
+aside hr {
+    width: 90%;
+    border-bottom: 1px solid #999a9a;
+    margin: 0 auto;
+}
+
+/*** RESPONSIVE  ***/
+
+@media screen and (min-width: 992px) {
+    aside {
+        max-width: 450px;
+    }
+
+    aside .logo .logo-big {
+        width: 250px;
+    }
+
+    aside .logo .logo-small {
+        display: none;
+    }
+
+    aside .logo .logo-big,
+    aside nav .playlist,
+    aside hr {
+        display: block;
+    }
+
+    aside .text {
+        display: inline;
+    }
+
+    aside nav .menu .home-icon {
+        border: none;
+    }
+
+    aside .icon,
+    aside nav .playlist a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    aside .icon img {
+        max-width: 30px;
+    }
+
+    aside nav .playlist .add-playlist {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background-color: #858585;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000;
+        font-size: 30px;
+    }
 }
