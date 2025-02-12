@@ -118,6 +118,18 @@ ul {
     margin: 0 auto;
 }
 
+.side .playlist .add-playlist {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #858585;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 30px;
+}
+
 /*** MAIN  ***/
 
 .main-content main {
@@ -169,17 +181,5 @@ footer {
 
     .side .icon img {
         max-width: 30px;
-    }
-
-    .side .playlist .add-playlist {
-        display: inline-block;
-        width: 40px;
-        height: 40px;
-        background-color: #858585;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: #000;
-        font-size: 30px;
     }
 }
