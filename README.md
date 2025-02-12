@@ -8,3 +8,8 @@ Il progetto sarà diviso 3 giorni in modo da suddividere il lavoro. Ogni giorno 
 
 1. Creare la struttura principale in HTML.
 2. Sviluppare la colonna di navigazione a sinistra in tutte le sue parti.
+
+**Day 2**
+
+1. Revisione e correggere il lavoro su day-1
+2. Sviluppare il contenuto principale in tutte le sue parti.
