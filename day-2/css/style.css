@@ -136,6 +136,22 @@ ul {
     flex-grow: 1;
 }
 
+/* TOP MAIN */
+
+.main-content main .top-main {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px 10px;
+}
+
+.main-content main .top-main .btn-upgrade {
+    border: 1px solid #fff;
+    padding: 15px;
+    border-radius: 100px;
+}
+
 /*** FOOTER  ***/
 
 footer {
