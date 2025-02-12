@@ -188,7 +188,6 @@ ul {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    justify-content: space-between;
 }
 
 .main-content main .bottom-main .container-row .title-row {
@@ -257,6 +256,8 @@ footer {
 
 /*** RESPONSIVE  ***/
 
+/* S */
+
 @media screen and (min-width: 576px) {
     .side {
         width: 230px;
@@ -297,11 +298,19 @@ footer {
     }
 }
 
+/* MD */
+
 @media screen and (min-width: 768px) {
     .main-content main .bottom-main .main-menu li {
         width: calc(100% / 5);
     }
+
+    .main-content main .bottom-main .container-row .card {
+        width: calc((100% / 4) - 10px);
+    }
 }
+
+/* LG */
 
 @media screen and (min-width: 992px) {
     .main-content main .bottom-main .main-menu {
@@ -310,5 +319,9 @@ footer {
 
     .main-content main .bottom-main .main-menu li {
         width: auto;
+    }
+
+    .main-content main .bottom-main .container-row .card {
+        width: calc((100% / 6) - 10px);
     }
 }
