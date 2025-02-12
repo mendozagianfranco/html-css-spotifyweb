@@ -243,8 +243,7 @@ ul {
     font-size: 1rem;
 }
 
-.main-content main .bottom-main .container-row .card .subtitle-card,
-.main-content main .bottom-main .container-row.for-you .subtitle-row {
+.main-content main .bottom-main .container-row .subtitle {
     color: #7b7e82;
     font-weight: bold;
     font-size: 0.9rem;
@@ -254,8 +253,13 @@ ul {
     margin-bottom: 20px;
 }
 
-.main-content main .bottom-main .container-row .subtitle-row {
+.main-content main .bottom-main .container-row > .subtitle {
     margin-bottom: 30px;
+}
+
+.main-content main .bottom-main .container-row.artist-popular .top-card {
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 /*** FOOTER  ***/
