@@ -226,3 +226,13 @@ footer {
         width: calc(100% / 5);
     }
 }
+
+@media screen and (min-width: 992px) {
+    .main-content main .bottom-main .main-menu {
+        gap: 25px;
+    }
+
+    .main-content main .bottom-main .main-menu li {
+        width: auto;
+    }
+}
