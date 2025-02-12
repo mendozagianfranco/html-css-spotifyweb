@@ -22,6 +22,7 @@ body {
 
 img {
     width: 100%;
+    display: block;
 }
 
 a {
@@ -172,6 +173,34 @@ ul {
 .main-content main .bottom-main .main-menu li {
     margin-bottom: 40px;
     width: calc(100% / 4);
+}
+
+.main-content main .bottom-main .container-row {
+    color: #fff;
+}
+
+.main-content main .bottom-main .container-row .title-row {
+    margin-bottom: 30px;
+}
+
+.main-content main .bottom-main .container-row .card {
+    width: calc(100% / 2);
+}
+
+.main-content main .bottom-main .container-row .card .top-card {
+    margin-bottom: 20px;
+}
+
+.main-content main .bottom-main .container-row .card .bottom-card {
+    text-align: center;
+}
+
+.main-content main .bottom-main .container-row .card .title-card {
+    margin-bottom: 5px;
+}
+
+.main-content main .bottom-main .container-row .card .subtitle-card {
+    color: #7b7e82;
 }
 
 /*** FOOTER  ***/
