@@ -220,3 +220,9 @@ footer {
         width: calc(100% / 3);
     }
 }
+
+@media screen and (min-width: 768px) {
+    .main-content main .bottom-main .main-menu li {
+        width: calc(100% / 5);
+    }
+}
