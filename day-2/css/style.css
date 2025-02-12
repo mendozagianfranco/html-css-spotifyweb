@@ -179,8 +179,22 @@ ul {
 }
 
 .main-content main .bottom-main .main-menu li {
-    margin-bottom: 40px;
+    padding-bottom: 5px;
     width: calc(100% / 4);
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.main-content main .bottom-main .main-menu li:first-child::after {
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 1px;
+    background: #adff2f;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 .main-content main .bottom-main .container-row {
