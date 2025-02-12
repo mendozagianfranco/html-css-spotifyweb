@@ -135,6 +135,7 @@ ul {
 
 .main-content main {
     flex-grow: 1;
+    overflow-y: scroll;
 }
 
 /* TOP MAIN */
@@ -179,12 +180,19 @@ ul {
     color: #fff;
 }
 
+.main-content main .bottom-main .container-row .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+
 .main-content main .bottom-main .container-row .title-row {
     margin-bottom: 30px;
 }
 
 .main-content main .bottom-main .container-row .card {
-    width: calc(100% / 2);
+    width: calc((100% / 2) - 10px);
 }
 
 .main-content main .bottom-main .container-row .card .top-card {
