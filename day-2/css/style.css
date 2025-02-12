@@ -1,0 +1,185 @@
+/*** RESET ***/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*** DEBUG ***/
+
+.debug main .top-main {
+    height: 90px;
+}
+
+/*** COMMON ***/
+
+body {
+    font-family: 'Montserrat', serif;
+    font-optical-sizing: auto;
+    height: 100vh;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.main-content {
+    display: flex;
+    flex-grow: 1;
+    height: calc(100% - 90px);
+    width: 100%;
+}
+
+/*** UTILITIES ***/
+.bg-1 {
+    background-color: #10151b;
+}
+
+.bg-2 {
+    background-color: #151922;
+}
+
+.bg-3 {
+    background-color: #282828;
+}
+
+/*** SIDE ***/
+
+.side {
+    color: #5c5c5c;
+    display: flex;
+    background-color: #000;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding: 10px 0;
+    width: 50px;
+}
+
+.side .logo {
+    padding-bottom: 20px;
+}
+
+.side .icon img {
+    filter: invert(34%) sepia(23%) saturate(0%) hue-rotate(295deg)
+        brightness(96%) contrast(90%);
+}
+
+.side .profile-icon img {
+    background-color: #666666;
+    border-radius: 50%;
+}
+
+.side .playlist {
+    margin-top: 40px;
+}
+
+.side a,
+.side .playlist .title-playlist {
+    padding: 5px 10px;
+}
+
+.side .playlist,
+.side .text,
+.side .logo .logo-big,
+.side hr {
+    display: none;
+}
+
+.side .playlist .title-playlist {
+    color: #fff;
+}
+
+.side .menu .home-icon {
+    border-left: 2px solid #b1f840;
+}
+
+.side .bottom-side {
+    margin-top: auto;
+}
+
+.side .bottom-aside .profile-icon .text {
+    color: #fff;
+}
+
+.side hr {
+    width: 90%;
+    border-bottom: 1px solid #999a9a;
+    margin: 0 auto;
+}
+
+/*** MAIN  ***/
+
+.main-content main {
+    flex-grow: 1;
+}
+
+/*** FOOTER  ***/
+
+footer {
+    height: 90px;
+}
+
+/*** RESPONSIVE  ***/
+
+@media screen and (min-width: 992px) {
+    .side {
+        width: 230px;
+    }
+
+    .side a,
+    .side .playlist .title-playlist {
+        padding: 5px 20px;
+    }
+
+    .side .logo .logo-small {
+        display: none;
+    }
+
+    .side .logo .logo-big,
+    .side .playlist,
+    .side hr {
+        display: block;
+    }
+
+    .side .text {
+        display: inline;
+    }
+
+    .side .menu .home-icon {
+        border: none;
+    }
+
+    .side .icon,
+    .side .playlist a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .side .icon img {
+        max-width: 30px;
+    }
+
+    .side .playlist .add-playlist {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background-color: #858585;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000;
+        font-size: 30px;
+    }
+}
