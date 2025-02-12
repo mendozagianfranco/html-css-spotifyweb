@@ -188,6 +188,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    margin-bottom: 40px;
 }
 
 .main-content main .bottom-main .container-row .title-row {
@@ -242,10 +243,19 @@ ul {
     font-size: 1rem;
 }
 
-.main-content main .bottom-main .container-row .card .subtitle-card {
+.main-content main .bottom-main .container-row .card .subtitle-card,
+.main-content main .bottom-main .container-row.for-you .subtitle-row {
     color: #7b7e82;
     font-weight: bold;
     font-size: 0.9rem;
+}
+
+.main-content main .bottom-main .container-row.for-you .title-row {
+    margin-bottom: 20px;
+}
+
+.main-content main .bottom-main .container-row .subtitle-row {
+    margin-bottom: 30px;
 }
 
 /*** FOOTER  ***/
