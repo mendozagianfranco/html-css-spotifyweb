@@ -160,6 +160,11 @@ ul {
     padding: 15px;
     border-radius: 100px;
     font-size: 12px;
+    transition: transform 0.2s;
+}
+
+.main-content main .top-main .btn-upgrade:hover {
+    transform: scale(1.1);
 }
 
 /* BOTTOM MAIN */
