@@ -281,6 +281,8 @@ footer {
     color: #fff;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 footer .running-song {
@@ -310,6 +312,15 @@ footer .running-song .icons {
 
 footer .player-controllers {
     text-align: center;
+    flex-grow: 1;
+    max-width: 500px;
+    margin-left: 20px;
+    flex-shrink: 0;
+}
+
+footer .player-controllers .top-player-controller {
+    margin-bottom: 10px;
+    font-size: 20px;
 }
 
 footer .player-controllers .top-player-controller > * {
@@ -318,7 +329,7 @@ footer .player-controllers .top-player-controller > * {
 
 footer .player-controllers .top-player-controller .btn-play {
     padding: 0 10px;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 footer .player-controllers .bottom-player-controller {
@@ -327,20 +338,35 @@ footer .player-controllers .bottom-player-controller {
     gap: 10px;
 }
 
-footer .player-controllers .bottom-player-controller .progress-bar {
+footer .progress-bar {
     background-color: #5a5a5a;
     height: 5px;
     border-radius: 15px;
     width: 100%;
 }
 
-footer .player-controllers .bottom-player-controller .progress-bar::after {
+footer .progress-bar::after {
     content: '';
     display: block;
     background-color: #c1c1c1;
     height: 100%;
     width: 40%;
     border-radius: 15px;
+}
+
+footer .extra-controllers {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+footer .extra-controllers .progress-bar {
+    min-width: 80px;
+}
+
+footer i,
+footer .progress-bar {
+    cursor: pointer;
 }
 
 /*** RESPONSIVE  ***/
@@ -396,6 +422,11 @@ footer .player-controllers .bottom-player-controller .progress-bar::after {
 
     .main-content main .bottom-main .container-row .card {
         width: calc((100% / 4) - 10px);
+    }
+
+    footer .running-song .icons {
+        flex-direction: row;
+        gap: 20px;
     }
 }
 
