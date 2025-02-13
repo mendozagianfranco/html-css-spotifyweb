@@ -214,6 +214,7 @@ ul {
 
 .main-content main .bottom-main .container-row .card {
     width: calc((100% / 2) - 10px);
+    cursor: pointer;
 }
 
 .main-content main .bottom-main .container-row .card .top-card {
@@ -221,7 +222,7 @@ ul {
     position: relative;
 }
 
-.main-content main .bottom-main .container-row .card .top-card .icon-play {
+.main-content main .bottom-main .container-row .card .icon-play {
     position: absolute;
     left: 0;
     right: 0;
@@ -230,16 +231,9 @@ ul {
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 0;
     transition: opacity 0.2s;
-    cursor: pointer;
 }
 
-.main-content
-    main
-    .bottom-main
-    .container-row
-    .card
-    .top-card:hover
-    .icon-play {
+.main-content main .bottom-main .container-row .card:hover .icon-play {
     opacity: 1;
 }
 
