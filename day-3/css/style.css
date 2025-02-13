@@ -306,7 +306,7 @@ footer {
 
 footer .running-song {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     align-items: center;
 }
 
@@ -367,7 +367,7 @@ footer .player-controllers .top-player-controller .btn-play:hover {
 footer .player-controllers .bottom-player-controller {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 footer .progress-bar {
