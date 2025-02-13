@@ -212,6 +212,10 @@ ul {
     margin: auto;
 }
 
+.main-content main .bottom-main .main-menu a:hover {
+    color: #fff;
+}
+
 .main-content main .bottom-main .container-row {
     color: #fff;
 }
