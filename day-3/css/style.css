@@ -322,6 +322,14 @@ footer .running-song .name-song,
 footer .running-song .icons {
     color: #878787;
 }
+footer .running-song .name-song:hover,
+footer .running-song i:hover {
+    color: #fff;
+}
+
+footer .running-song .name-song:hover {
+    text-decoration: underline;
+}
 
 footer .running-song .icons {
     display: flex;
@@ -349,6 +357,11 @@ footer .player-controllers .top-player-controller > * {
 footer .player-controllers .top-player-controller .btn-play {
     padding: 0 10px;
     font-size: 25px;
+    transition: transform 0.2s;
+}
+
+footer .player-controllers .top-player-controller .btn-play:hover {
+    transform: scale(1.2);
 }
 
 footer .player-controllers .bottom-player-controller {
@@ -364,13 +377,16 @@ footer .progress-bar {
     width: 100%;
 }
 
-footer .progress-bar::after {
-    content: '';
-    display: block;
+footer .progress-bar:hover .bar {
+    background-color: #adff2f;
+}
+
+footer .progress-bar .bar {
     background-color: #c1c1c1;
     height: 100%;
     width: 40%;
     border-radius: 15px;
+    position: relative;
 }
 
 footer .extra-controllers {
@@ -381,6 +397,22 @@ footer .extra-controllers {
 
 footer .extra-controllers .progress-bar {
     min-width: 80px;
+}
+
+footer .progress-bar .ball-progress-bar {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    transform: translateY(-50%);
+    display: none;
+}
+
+footer .progress-bar:hover .ball-progress-bar {
+    display: block;
 }
 
 footer i,
