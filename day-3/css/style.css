@@ -113,7 +113,7 @@ ul {
     margin-top: auto;
 }
 
-.side .bottom-aside .profile-icon .text {
+.side .bottom-side .profile-icon .text {
     color: #fff;
 }
 
@@ -133,6 +133,16 @@ ul {
     align-items: center;
     color: #000;
     font-size: 30px;
+}
+
+.side .menu a:hover,
+.side .playlist a:hover,
+.side .bottom-side a:hover {
+    color: #fff;
+}
+
+.side .playlist a:hover .add-playlist {
+    background-color: #fff;
 }
 
 /*** MAIN  ***/
