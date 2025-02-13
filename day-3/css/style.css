@@ -277,6 +277,36 @@ ul {
 
 footer {
     height: 90px;
+    padding: 20px 10px;
+}
+
+footer .running-song {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+footer .running-song .img-song {
+    max-width: 40px;
+}
+
+footer .running-song .bio-song {
+    font-size: 14px;
+}
+
+footer .running-song .name-artist {
+    color: #fff;
+}
+
+footer .running-song .name-song,
+footer .running-song .icons {
+    color: #878787;
+}
+
+footer .running-song .icons {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 /*** RESPONSIVE  ***/
